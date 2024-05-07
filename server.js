@@ -14,3 +14,4 @@ db.once('open', () =>{
         console.log(`API is running on PORT ${PORT}`);
     });
 });
+
