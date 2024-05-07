@@ -8,12 +8,6 @@ For this week's Challenge, we have been assigned to build an API for a social ne
 
 ## Reference Links
 
-Regexr
-- https://regexr.com/
-
-Microsoft Learn
-- https://learn.microsoft.com/en-us/dotnet/standard/base-types/grouping-constructs-in-regular-expressions
-
 UofT Coding Tutor
 - Andru Sanchez
 
@@ -22,7 +16,6 @@ UofT Coding Tutor
 
 Email
  - Jameshughes2009@hotmail.com
-
 GitHub
 - https://github.com/Jameshughes2009/csforjs-17
 
