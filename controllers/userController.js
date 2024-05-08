@@ -18,7 +18,18 @@ const userController = {
         User.create(req.body)
             .then(userData => res.json(userData))
             .catch(err => res.status(500).json(err));
-    }
+    },
+
+    deleteUser(req, res) {
+        User.findOneAndDelete(req.params.id)
+            .then(userData => {
+                if (!userData) {
+                    return res.status(404).json({message: "No Person Bfound"});
+                }
+                res.json({message: "Deleted"})
+            })
+            .catch(err => res.status(500).json(err));
+    },
 };
 
 module.exports = userController;
