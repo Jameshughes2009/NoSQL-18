@@ -18,6 +18,15 @@ const ThoughtController = {
             res.status(500).json(err);
         }
     },
+
+    async deleteThought(req, res){
+        try {
+            const thought = await Thought.findByIdAndDelete({_id:req.params.thoughtId});
+            res.status(200).json(thought);
+        } catch (err) {
+            res.status(500).json(err);
+        }
+    },
 }
 
 
