@@ -30,6 +30,17 @@ const userController = {
             })
             .catch(err => res.status(500).json(err));
     },
+
+    updateUser(req, res) {
+        User.findOneAndUpdate(req.params.id, res.body, { new: true })
+            .then(userData => {
+                if (!userData) {
+                    return res.status(404).json({ message: 'Test'});
+                }
+                res.json(userData);
+            })
+            .catch(err => res.status(500).json(err));
+    },
 };
 
 module.exports = userController;
