@@ -15,7 +15,9 @@ UofT Coding Tutor
 ## Contact Info 
 
 Email
- - Jameshughes2009@hotmail.com
+- Jameshughes2009@hotmail.com
 GitHub
-- https://github.com/Jameshughes2009/csforjs-17
+- https://github.com/Jameshughes2009/
+Repo
+- https://github.com/Jameshughes2009/NoSQL-18
 
