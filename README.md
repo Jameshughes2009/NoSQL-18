@@ -6,6 +6,11 @@
 For this week's Challenge, we have been assigned to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM.
 
 
+
+## WalkThrough Video Link
+ScreenCastify
+- https://drive.google.com/file/d/1IryNm9mIq2CQwSwx5MaJfPR0ZkTQYBzl/view
+
 ## Reference Links
 
 Bootcamp module 18 mini project 
