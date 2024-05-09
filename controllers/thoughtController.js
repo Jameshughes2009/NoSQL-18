@@ -41,7 +41,19 @@ const ThoughtController = {
     },
 
     // update one testing
-    {
+    async updateThought(req, res) {
+        try {
+            const thought = await Thought.findByIdAndUpdate(req.params.thoughtId, req.body, {
+                new: true,
+            });
+            if(!thought){
+                res.status(404).json({message: "notfound"});
+            } else {
+                res.json(thought);
+            }
+        } catch (err) {
+            res.status(500).json(err);
+        }
     },
 }
 
